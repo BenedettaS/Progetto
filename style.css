@@ -1,0 +1,53 @@
+[data-config-title] {
+  text-align: right;
+  margin-right: 60px;
+}
+
+[data-config-subtitle] {
+  font-size: 8px;
+  text-align: right;
+  margin-right: 60px;
+}
+
+p {
+  text-align: justify;
+}
+
+/* block quotes */
+blockquote {
+  background: #F9F9F9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 1.5em;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: 20px;
+  text-align: end;
+}
+
+img.fotografia{
+  display: block;
+  margin:0 auto;
+  width: 300px;
+}
+
+img.kmeans{
+  display: block;
+  margin:0 auto;
+  width: 980px;
+}
+
+slides > slide:not(.nobackground):before {
+  position:absolute;
+}
+
+/* scrolling */
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
